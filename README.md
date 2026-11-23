@@ -28,8 +28,9 @@ document properties and file names, and keeps every piece of text's formatting. 
 
 1. **School details to hide**: type the school's name every way it is written, its address and
    staff names. Save.
-2. **Clean new documents**: drop in the Word documents. Every picture is shown; click the ones to
-   keep visible (all start as Hide). Clean, then read each cleaned document: names that are not
+2. **Clean new documents**: drop in the Word documents. Every picture is shown, and all start as
+   Keep; click the ones to hide, such as the school crest. (The small preview of page one that Word
+   stores inside each document is always hidden.) Clean, then read each cleaned document: names that are not
    in the list (pupils, other staff) are not caught.
 3. Give the AI only the cleaned documents, and ask it to save its work as Word documents.
 4. **Put the details back**: drop in what the AI produced. Save the results, and don't show them
