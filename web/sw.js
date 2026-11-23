@@ -1,5 +1,5 @@
 // Offline support: keep the page's own files, nothing else. Bump VERSION on every change.
-const VERSION = 'school-cleaner-1';
+const VERSION = 'school-cleaner-2';
 const FILES = ['./', 'index.html', 'page.js', 'cleaner.js', 'jszip.min.js', 'manifest.webmanifest',
   'icon-192.png', 'icon-512.png'];
 

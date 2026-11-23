@@ -102,9 +102,7 @@ async function addCleanFiles(list) {
   cleanFiles.push(...docs.filter(f => !names.has(f.name)));
   say($('cleanMsg'), 'Reading the pictures…');
   try {
-    const known = new Set(pics.map(p => p.sha));
-    pics = await collectPictures(cleanFiles);
-    pics.forEach(p => { if (!known.has(p.sha)) hide.add(p.sha); });
+    pics = await collectPictures(cleanFiles); // every picture starts as Keep; the user picks what to hide
     $('picsBox').hidden = !pics.length;
     $('cleanRow').hidden = false;
     drawPictures();
